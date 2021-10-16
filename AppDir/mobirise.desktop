@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Mobirise
+Exec=AppRun %U
+Terminal=false
+Type=Application
+Icon=mobirise
+StartupWMClass=Mobirise
+Comment=Create awesome mobile-friendly websites! No coding and free.
+Categories=Development;
