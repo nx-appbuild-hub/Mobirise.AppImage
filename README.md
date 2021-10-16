@@ -1,0 +1,1 @@
+# Mobirise.AppImage
