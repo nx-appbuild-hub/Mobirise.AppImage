@@ -17,7 +17,8 @@ all: clean init
 	mkdir --parents $(PWD)/build/Boilerplate.AppDir/mobirise
 	$(PWD)/bin/Apprepo.AppImage --destination=$(PWD)/build appdir boilerplate \
 	    libgdk-pixbuf2.0-0 libatk1.0-0 libatk-bridge2.0-0 libgtk2.0-0 \
-	    libreadline8 at-spi2-core libpango-1.0-0 libselinux1
+	    libreadline8 at-spi2-core libpango-1.0-0 libgtk-3-0 libgtk-3-0 \
+		libwayland-cursor0 libselinux1 
 
 	wget --output-document=$(PWD)/build/build.deb https://download.mobirise.com/MobiriseSetup.deb
 	dpkg -x $(PWD)/build/build.deb $(PWD)/build
